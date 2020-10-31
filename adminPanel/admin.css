@@ -10,21 +10,19 @@
     height: 35px;
     background-color:#C71585;
     color: white;
-    border-bottom-style: solid;
-    border-width: 8px;
-    border-color: white;
+   
 }
 .sidebar{
-    width: 300px;
+    width: 20%;
     height: 690px;
     background: #e5e5e5;
     float: left;
 }
-/* .center{
-      
-} */
+.center span{
+    color: #650061;
+}
 ul li{
-    padding: 10px 0px 13px 0px;
+    padding: 10px 0px 13px 20px;
 }
 a{
    
@@ -34,10 +32,54 @@ a:hover{
     color: #C71585;
 }
 .chall{
-    padding-left: 10px 10px 10px 35px;
-   
+    padding: 20px 0px 20px 35px;
+    font-size: 20pt;
 }
 .adm{
     color: #650061;
-    font-size: 10pt;
+    font-size: 13pt;
+    
 }
+.button {
+    background-color:#C71585;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 4px 2px;  
+    padding: 5px 20px;
+  }
+  .add-topic-word{
+    color: #650061;
+    padding: 20px 10px 25px 13px;
+    margin-left: 20%;
+  }
+  input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 0px 13px;
+    border: 2px solid #c6c6c6;
+    border-radius: 10px;
+  }
+  label{
+    padding: 10px 0px 0px 21%;
+    display: block;
+  }
+  .button-submit{
+    background-color: #C71585;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 40px 21%;
+    padding: 7px 27px;
+  }
+  
