@@ -82,4 +82,17 @@ a:hover{
     margin: 40px 21%;
     padding: 7px 27px;
   }
+  table {
+    border-collapse: collapse;
+    width: 500%;
+  } 
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even){background-color: #f2f2f2}
+  th {
+    background-color: #C71585;
+    color: white;
+  }
   
