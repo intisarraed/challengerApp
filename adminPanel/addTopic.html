@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="admin.css">
     <title>Document</title>
+    <script>
+        function submitTpic(){
+            var topic = document.getElementById("topic").value;
+            localStorage.setItem("topic",topic);
+            console.log(topic);
+            return false;
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -25,11 +33,11 @@
          </div>
          <div class="center">
             <p class="add-topic-word">Add Topic</p>
-            <from>
+            <form action = "viewTopic.html">
                 <label for="title">Title</label>
                 <input type="text" id="topic" name="topic">
-                <input class ="button-submit" type="submit" value="Save">
-            </from>
+                <input class ="button-submit" type="submit" value="Save" onclick = "submitTpic();">
+            </form>
         </div>
     </div>
 </body>

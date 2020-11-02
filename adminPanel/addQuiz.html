@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="admin.css">
     <title>Document</title>
+    <script>
+        function submitQiz(){
+            
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -25,7 +30,7 @@
        </div>
          <div class="center">
              <p class="add-topic-word">Add Quiz</p>
-             <from>
+             <form action="viewQuiz.html">
                  <label for="title">Title</label>
                  <input type="text" id="title" name="title"><br>
                  <label for="Topic">Topic</label>
@@ -35,7 +40,7 @@
                  <label for="Number of Questions">Number of Questions</label>
                  <input type="text" id="question" name="question"><br>
                  <input class ="button-submit" type="submit" value="Save">
-             </from>
+             </form>
          </div>
     </div>
 </body>
