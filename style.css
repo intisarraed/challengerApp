@@ -109,7 +109,7 @@
   .button-container{
     width: 70%;
     height: 40%;
-    margin: 17% 20% 0%;
+    margin: 20px 10px;
     border: none;
     color: white;
     padding: 10px 30px;
@@ -131,11 +131,13 @@
   }
   .check-span{
       color: #9A24A9;
+      display:table;
+     margin:0 auto;
   }
-  .buttons {
+  .button {
     border: none;
-    color: white;
-    padding: 10px 30px;
+    color: black;
+    padding: 3px 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -143,6 +145,7 @@
     margin: 9px 7px;
     cursor: pointer;
     border-radius: 15px;
+    background-color: white;
   }
   .typing-ninja{
     color: #2E353A;
@@ -160,8 +163,8 @@
   .final-container{
     max-width: 100%;
     padding: 0px 10px;
-    margin-top: 500px;
-    height: 150px;
+    margin-top: 90px;
+    height: 123px;
   }
   .final-container p {
       text-align: center;
@@ -183,4 +186,7 @@
 .span3-styling{
     padding-left: 7%;
     color: #2E353A;
+}
+.or-word{
+    text-align: center;
 }
