@@ -7,7 +7,11 @@
     <title>Document</title>
     <script>
         function submitQiz(){
-            
+            let title = document.getElementById("title").value;
+            let noOfQuestions = document.getElementById("question").value;
+            localStorage.setItem("title",title);
+            localStorage.setItem("qeustion",noOfQuestions);
+            return false;
         }
     </script>
 </head>
@@ -39,7 +43,7 @@
                    </select> 
                  <label for="Number of Questions">Number of Questions</label>
                  <input type="text" id="question" name="question"><br>
-                 <input class ="button-submit" type="submit" value="Save">
+                 <input class ="button-submit" type="submit" value="Save" onclick="submitQiz();">
              </form>
          </div>
     </div>
