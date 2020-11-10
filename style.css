@@ -9,14 +9,14 @@
     padding-top: 150px;
 }
 .first-containter{
-    max-width: 100%;
-    padding: 0px 10px;
+    max-width: 1780px;
     margin: 0 auto;
     background-image: url("images/Intersection\ 1@2x.png");
     height: 720px;  
     border-bottom-style: solid;
     border-width: 5px;
     border-color: white;
+    display: flex;
 }
 .container{
     max-width: 100%;
@@ -27,8 +27,10 @@
 .row{
     clear: both;
     overflow: hidden;
+    flex-grow: 1;
+    flex-wrap: wrap;
 }
-.column-10,
+/* .column-10,
 .column-20,
 .column-30,
 .column-40,
@@ -38,8 +40,8 @@
 .column-80,
 .column-90,
 .column-100{
-    float: left;
-}
+    
+} */
 .column-10{
     width: 10%;
 }
